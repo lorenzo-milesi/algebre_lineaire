@@ -15,7 +15,7 @@
 %
 % Compiling this template:
 % This template uses biber for its bibliography and makeindex for its index.
-% When you first open the template, compile it from the command line with the 
+% When you first open the template, compile it from the command line with the
 % commands below to make sure your LaTeX distribution is configured correctly:
 %
 % 1) pdflatex main
@@ -24,7 +24,7 @@
 % 4) pdflatex main x 2
 %
 % After this, when you wish to update the bibliography/index use the appropriate
-% command above and make sure to compile with pdflatex several times 
+% command above and make sure to compile with pdflatex several times
 % afterwards to propagate your changes to the document.
 %
 % This template also uses a number of packages which may need to be
@@ -59,10 +59,10 @@
 \begingroup
 \thispagestyle{empty} % Suppress headers and footers on the title page
 \begin{tikzpicture}[remember picture,overlay]
-\node[inner sep=0pt] (background) at (current page.center) {\includegraphics[width=\paperwidth]{background.pdf}};
-\draw (current page.center) node [fill=ocre!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]{\Huge\centering\bfseries\sffamily\parbox[c][][t]{\paperwidth}{\centering The Search for a Title\\[15pt] % Book title
-{\Large A Profound Subtitle}\\[20pt] % Subtitle
-{\huge Dr. John Smith}}}; % Author name
+\node[inner sep=0pt] (background) at (current page.center) {\includegraphics[width=\paperwidth]{cover.png}};
+\draw (current page.center) node [fill=ocre!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]{\Huge\centering\bfseries\sffamily\parbox[c][][t]{\paperwidth}{\centering Algèbre linéaire\\[15pt] % Book title
+{\Large \today}\\[20pt] % Subtitle
+{\huge Lorenzo Milesi}}}; % Author name
 \end{tikzpicture}
 \vfill
 \endgroup
@@ -180,7 +180,7 @@ In $E=\mathbb{R}^n$ all norms are equivalent. It has the properties:
 This is a theorem consisting of just one line.
 
 \begin{theorem}
-A set $\mathcal{D}(G)$ in dense in $L^2(G)$, $|\cdot|_0$. 
+A set $\mathcal{D}(G)$ in dense in $L^2(G)$, $|\cdot|_0$.
 \end{theorem}
 
 %------------------------------------------------
@@ -208,7 +208,7 @@ Given an open subset $G$ of $\mathbb{R}^n$, the set of functions $\varphi$ are:
 \item Bounded support $G$;
 \item Infinitely differentiable;
 \end{enumerate}
-a vector space is denoted by $\mathcal{D}(G)$. 
+a vector space is denoted by $\mathcal{D}(G)$.
 \end{notation}
 
 %------------------------------------------------
@@ -249,8 +249,8 @@ It has the properties:
 
 \subsection{Single Line}\index{Propositions!Single Line}
 
-\begin{proposition} 
-Let $f,g\in L^2(G)$; if $\forall \varphi\in\mathcal{D}(G)$, $(f,\varphi)_0=(g,\varphi)_0$ then $f = g$. 
+\begin{proposition}
+Let $f,g\in L^2(G)$; if $\forall \varphi\in\mathcal{D}(G)$, $(f,\varphi)_0=(g,\varphi)_0$ then $f = g$.
 \end{proposition}
 
 %------------------------------------------------

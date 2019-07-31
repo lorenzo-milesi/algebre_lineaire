@@ -7,8 +7,8 @@ CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
 
 La présente licence creative commons autorise donc la réutilisation du présent modèle, tant que le
 créateur original est cité, qu'aucune utilisation commerciale n'en est faite (de tout ou partie) et
-le partage doit être fait dans les mêmes conditions.
-C'est la raison pour laquelle ce présente document est régit par exactement la même license :
+dont le partage est fait dans les mêmes conditions.
+C'est la raison pour laquelle ce présent document est sous la même license :
 CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
 
 ## Compilation
